@@ -1,0 +1,16 @@
+/* colorful card wrapper for each auto post */
+.abc-card{
+  padding: 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,.06);
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+  background: linear-gradient(180deg, #fff, #fafafa);
+}
+.abc-card h2, .abc-card h3 { margin-top: 0.6em; }
+.abc-chip{
+  display:inline-block; padding:6px 10px; border-radius:999px;
+  background:#e9d5ff;
+}
+.abc-log{
+  background:#111827; color:#e5e7eb; padding:12px; border-radius:10px;
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2025-08-16",
+    "type": "post",
+    "title": "WordPress Cron: Practical Guide",
+    "content": "Today, something exciting happened — I got a reference from my school friend about rtCamp, a well-known company working with WordPress and open source technologies. I didn’t know much about them before, so I decided to explore their website and learn what they do. [my_shortcode txt=\"Cron FTW!\"]",
+    "style": "border-left:6px solid #0ea5e9; background:#eff6ff; padding:12px;",
+    "categories": ["Tutorials","WordPress"],
+    "tags": ["cron","automation","wp"]
+  },
+  {
+    "type": "page",
+    "title": "Gutenberg Tips — Blocks You’ll Actually Use",
+    "content": "<!-- wp:paragraph --><p>Yeh block-enabled content hai.</p><!-- /wp:paragraph -->",
+    "style": "background:#fff7ed; border-left:6px solid #f59e0b; padding:12px;"
+  },
+  {
+    "type": "post",
+    "title": "Advanced Plugin Patterns",
+    "content": "Singletons, service containers, admin pages, security checks...",
+    "style": "background:#fef2f2; border-left:6px solid #ef4444; padding:12px;",
+    "categories": ["Development"],
+    "tags": ["plugins","patterns"]
+  }
+]
