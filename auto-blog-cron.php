@@ -204,6 +204,25 @@ add_shortcode('my_shortcode', function($atts){
 });
 
 
+/**
+ * Force Gutenberg editor and disable Classic Editor
+ */
+add_filter('use_block_editor_for_post_type', function($use_block_editor, $post_type) {
+    // Force Gutenberg for posts
+    if ($post_type === 'post') {
+        return true;
+    }
+    return $use_block_editor;
+}, 10, 2);
+
+// Disable Classic Editor
+add_filter('classic_editor_enabled_editors_for_post_type', function($editors, $post_type) {
+    if ($post_type === 'post') {
+        return ['block_editor' => true];
+    }
+    return $editors;
+}, 10, 2);
+
 /** 
  * =============================
  * Admin UI for ABC Auto Blogger
