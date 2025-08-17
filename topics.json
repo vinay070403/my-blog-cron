@@ -1,25 +1,272 @@
 [
   {
-    "date": "2025-08-16",
+    "date": "2025-08-18",
     "type": "post",
-    "title": "WordPress Cron: Practical Guide",
-    "content": "Today, something exciting happened — I got a reference from my school friend about rtCamp, a well-known company working with WordPress and open source technologies. I didn’t know much about them before, so I decided to explore their website and learn what they do. [my_shortcode txt=\"Cron FTW!\"]",
+    "title": "Getting Started with WordPress Development",
+    "content": "WordPress powers over 40% of the web, making it essential for developers to understand its architecture. In this post, we'll explore the basics of WordPress development, including themes, plugins, and the template hierarchy. [my_shortcode txt=\"Start Developing\"]",
     "style": "border-left:6px solid #0ea5e9; background:#eff6ff; padding:12px;",
-    "categories": ["Tutorials","WordPress"],
-    "tags": ["cron","automation","wp"]
+    "categories": ["Development", "WordPress"],
+    "tags": ["beginner", "development", "wordpress"]
   },
   {
-    "type": "page",
-    "title": "Gutenberg Tips — Blocks You’ll Actually Use",
-    "content": "<!-- wp:paragraph --><p>Yeh block-enabled content hai.</p><!-- /wp:paragraph -->",
-    "style": "background:#fff7ed; border-left:6px solid #f59e0b; padding:12px;"
-  },
-  {
+    "date": "2025-08-19",
     "type": "post",
-    "title": "Advanced Plugin Patterns",
-    "content": "Singletons, service containers, admin pages, security checks...",
-    "style": "background:#fef2f2; border-left:6px solid #ef4444; padding:12px;",
-    "categories": ["Development"],
-    "tags": ["plugins","patterns"]
+    "title": "Building Custom Gutenberg Blocks",
+    "content": "Gutenberg blocks have revolutionized WordPress content creation. Learn how to create custom blocks using React and the @wordpress/block-editor package. We'll cover block registration, attributes, and saving. [my_shortcode txt=\"Block Development\"]",
+    "style": "border-left:6px solid #10b981; background:#ecfdf5; padding:12px;",
+    "categories": ["Development", "Gutenberg"],
+    "tags": ["blocks", "gutenberg", "react"]
+  },
+  {
+    "date": "2025-08-20",
+    "type": "post",
+    "title": "WordPress Security Best Practices",
+    "content": "Security should be a top priority for every WordPress site owner. In this guide, we'll cover essential security measures including user roles, file permissions, and security plugins. [my_shortcode txt=\"Stay Secure\"]",
+    "style": "border-left:6px solid #ef4444; background:#fef2f2; padding:12px;",
+    "categories": ["Security", "WordPress"],
+    "tags": ["security", "best-practices", "wordpress"]
+  },
+  {
+    "date": "2025-08-21",
+    "type": "post",
+    "title": "Optimizing WordPress Performance",
+    "content": "A slow website can hurt your SEO and user experience. Learn how to optimize your WordPress site with caching, image optimization, and database cleanup. [my_shortcode txt=\"Boost Speed\"]",
+    "style": "border-left:6px solid #f59e0b; background:#fffbeb; padding:12px;",
+    "categories": ["Performance", "WordPress"],
+    "tags": ["performance", "optimization", "caching"]
+  },
+  {
+    "date": "2025-08-22",
+    "type": "post",
+    "title": "Creating Custom Post Types",
+    "content": "Extend WordPress beyond posts and pages with custom post types. We'll show you how to register and manage them programmatically and with plugins. [my_shortcode txt=\"Learn CPTs\"]",
+    "style": "border-left:6px solid #8b5cf6; background:#f5f3ff; padding:12px;",
+    "categories": ["Development", "WordPress"],
+    "tags": ["cpt", "development", "wordpress"]
+  },
+  {
+    "date": "2025-08-23",
+    "type": "post",
+    "title": "Mastering WP_Query",
+    "content": "WP_Query is the heart of WordPress content retrieval. Learn how to use it effectively to create custom loops and display content exactly how you want. [my_shortcode txt=\"Query Mastery\"]",
+    "style": "border-left:6px solid #ec4899; background:#fdf2f8; padding:12px;",
+    "categories": ["Development", "WordPress"],
+    "tags": ["wp_query", "loops", "development"]
+  },
+  {
+    "date": "2025-08-24",
+    "type": "post",
+    "title": "WordPress REST API Basics",
+    "content": "Unlock the power of the WordPress REST API to create headless applications or integrate with external services. We'll cover endpoints, authentication, and practical examples. [my_shortcode txt=\"API Guide\"]",
+    "style": "border-left:6px solid #3b82f6; background:#eff6ff; padding:12px;",
+    "categories": ["API", "Development"],
+    "tags": ["rest-api", "wordpress", "development"]
+  },
+  {
+    "date": "2025-08-25",
+    "type": "post",
+    "title": "WordPress Multisite Setup and Management",
+    "content": "Learn how to set up and manage a WordPress Multisite network for multiple related websites. We'll cover installation, configuration, and common use cases. [my_shortcode txt=\"Multisite Guide\"]",
+    "style": "border-left:6px solid #10b981; background:#ecfdf5; padding:12px;",
+    "categories": ["WordPress", "Advanced"],
+    "tags": ["multisite", "wordpress", "networking"]
+  },
+  {
+    "date": "2025-08-26",
+    "type": "post",
+    "title": "E-Commerce with WooCommerce",
+    "content": "Transform your WordPress site into a full-featured online store with WooCommerce. We'll cover product setup, payment gateways, and extension development. [my_shortcode txt=\"WooCommerce Guide\"]",
+    "style": "border-left:6px solid #f59e0b; background:#fffbeb; padding:12px;",
+    "categories": ["E-Commerce", "WooCommerce"],
+    "tags": ["woocommerce", "ecommerce", "wordpress"]
+  },
+  {
+    "date": "2025-08-27",
+    "type": "post",
+    "title": "WordPress Theme Development",
+    "content": "Create custom WordPress themes from scratch. We'll cover template files, theme hierarchy, and best practices for theme development. [my_shortcode txt=\"Theme Dev\"]",
+    "style": "border-left:6px solid #8b5cf6; background:#f5f3ff; padding:12px;",
+    "categories": ["Themes", "Development"],
+    "tags": ["themes", "wordpress", "development"]
+  },
+  {
+    "date": "2025-08-28",
+    "type": "post",
+    "title": "Advanced Custom Fields Pro Guide",
+    "content": "Take your WordPress development to the next level with Advanced Custom Fields. Learn how to create custom meta boxes, options pages, and flexible content. [my_shortcode txt=\"ACF Pro\"]",
+    "style": "border-left:6px solid #ec4899; background:#fdf2f8; padding:12px;",
+    "categories": ["Development", "Plugins"],
+    "tags": ["acf", "custom-fields", "wordpress"]
+  },
+  {
+    "date": "2025-08-29",
+    "type": "post",
+    "title": "WordPress Plugin Development",
+    "content": "Learn how to create your own WordPress plugins. We'll cover plugin structure, hooks, and best practices for building maintainable code. [my_shortcode txt=\"Plugin Dev\"]",
+    "style": "border-left:6px solid #3b82f6; background:#eff6ff; padding:12px;",
+    "categories": ["Development", "Plugins"],
+    "tags": ["plugins", "development", "wordpress"]
+  },
+  {
+    "date": "2025-08-30",
+    "type": "post",
+    "title": "WordPress and React Integration",
+    "content": "Combine the power of React with WordPress to create dynamic, single-page applications. We'll cover the REST API, custom endpoints, and frontend setup. [my_shortcode txt=\"React + WP\"]",
+    "style": "border-left:6px solid #10b981; background:#ecfdf5; padding:12px;",
+    "categories": ["Development", "JavaScript"],
+    "tags": ["react", "wordpress", "javascript"]
+  },
+  {
+    "date": "2025-08-31",
+    "type": "post",
+    "title": "WordPress Customizer API",
+    "content": "Create a user-friendly theme customization experience with the WordPress Customizer. We'll cover panels, sections, controls, and live previews. [my_shortcode txt=\"Customizer Guide\"]",
+    "style": "border-left:6px solid #f59e0b; background:#fffbeb; padding:12px;",
+    "categories": ["Themes", "Development"],
+    "tags": ["customizer", "wordpress", "themes"]
+  },
+  {
+    "date": "2025-09-01",
+    "type": "post",
+    "title": "WordPress Database Management",
+    "content": "Understand the WordPress database structure and learn how to interact with it safely. We'll cover the $wpdb class, custom tables, and optimization. [my_shortcode txt=\"Database Guide\"]",
+    "style": "border-left:6px solid #8b5cf6; background:#f5f3ff; padding:12px;",
+    "categories": ["Database", "Advanced"],
+    "tags": ["database", "wordpress", "optimization"]
+  },
+  {
+    "date": "2025-09-02",
+    "type": "post",
+    "title": "WordPress and Docker",
+    "content": "Set up a local WordPress development environment with Docker. We'll cover containerization, multi-container setups, and deployment strategies. [my_shortcode txt=\"Docker Guide\"]",
+    "style": "border-left:6px solid #ec4899; background:#fdf2f8; padding:12px;",
+    "categories": ["DevOps", "Development"],
+    "tags": ["docker", "wordpress", "devops"]
+  },
+  {
+    "date": "2025-09-03",
+    "type": "post",
+    "title": "WordPress Multilingual Sites",
+    "content": "Create multilingual WordPress websites using WPML and Polylang. We'll cover content translation, language switchers, and SEO considerations. [my_shortcode txt=\"Multilingual Guide\"]",
+    "style": "border-left:6px solid #3b82f6; background:#eff6ff; padding:12px;",
+    "categories": ["Multilingual", "WordPress"],
+    "tags": ["translation", "multilingual", "wordpress"]
+  },
+  {
+    "date": "2025-09-04",
+    "type": "post",
+    "title": "WordPress SEO Best Practices",
+    "content": "Optimize your WordPress site for search engines with these proven techniques. We'll cover on-page SEO, technical SEO, and popular SEO plugins. [my_shortcode txt=\"SEO Guide\"]",
+    "style": "border-left:6px solid #10b981; background:#ecfdf5; padding:12px;",
+    "categories": ["SEO", "Marketing"],
+    "tags": ["seo", "wordpress", "optimization"]
+  },
+  {
+    "date": "2025-09-05",
+    "type": "post",
+    "title": "WordPress User Roles and Capabilities",
+    "content": "Master WordPress user management with custom roles and capabilities. We'll cover the default roles, creating custom ones, and security best practices. [my_shortcode txt=\"User Roles\"]",
+    "style": "border-left:6px solid #f59e0b; background:#fffbeb; padding:12px;",
+    "categories": ["Security", "WordPress"],
+    "tags": ["user-roles", "security", "wordpress"]
+  },
+  {
+    "date": "2025-09-06",
+    "type": "post",
+    "title": "WordPress and GraphQL",
+    "content": "Use GraphQL with WordPress to create flexible, efficient data queries. We'll cover WPGraphQL setup, queries, and frontend integration. [my_shortcode txt=\"GraphQL Guide\"]",
+    "style": "border-left:6px solid #8b5cf6; background:#f5f3ff; padding:12px;",
+    "categories": ["API", "Development"],
+    "tags": ["graphql", "wordpress", "api"]
+  },
+  {
+    "date": "2025-09-07",
+    "type": "post",
+    "title": "WordPress Performance Optimization for High Traffic",
+    "content": "Handle high traffic on your WordPress site with these advanced optimization techniques. We'll cover caching, database optimization, and scaling strategies. [my_shortcode txt=\"High Traffic Guide\"]",
+    "style": "border-left:6px solid #ec4899; background:#fdf2f8; padding:12px;",
+    "categories": ["Performance", "Advanced"],
+    "tags": ["performance", "optimization", "scaling"]
+  },
+  {
+    "date": "2025-09-08",
+    "type": "post",
+    "title": "WordPress and Vue.js Integration",
+    "content": "Build modern, reactive interfaces with Vue.js and WordPress. We'll cover the REST API, authentication, and component-based development. [my_shortcode txt=\"Vue.js Guide\"]",
+    "style": "border-left:6px solid #3b82f6; background:#eff6ff; padding:12px;",
+    "categories": ["Development", "JavaScript"],
+    "tags": ["vue", "wordpress", "javascript"]
+  },
+  {
+    "date": "2025-09-09",
+    "type": "post",
+    "title": "WordPress Migration Guide",
+    "content": "Learn how to safely migrate WordPress sites between hosts, domains, and servers. We'll cover manual and plugin-based approaches. [my_shortcode txt=\"Migration Guide\"]",
+    "style": "border-left:6px solid #10b981; background:#ecfdf5; padding:12px;",
+    "categories": ["WordPress", "DevOps"],
+    "tags": ["migration", "wordpress", "hosting"]
+  },
+  {
+    "date": "2025-09-10",
+    "type": "post",
+    "title": "WordPress and Composer",
+    "content": "Manage WordPress dependencies like a pro with Composer. We'll cover basic setup, managing plugins/themes, and modern WordPress development workflows. [my_shortcode txt=\"Composer Guide\"]",
+    "style": "border-left:6px solid #f59e0b; background:#fffbeb; padding:12px;",
+    "categories": ["Development", "Workflow"],
+    "tags": ["composer", "wordpress", "development"]
+  },
+  {
+    "date": "2025-09-11",
+    "type": "post",
+    "title": "WordPress Accessibility Best Practices",
+    "content": "Make your WordPress site accessible to everyone. We'll cover WCAG guidelines, accessible themes, and testing tools. [my_shortcode txt=\"Accessibility Guide\"]",
+    "style": "border-left:6px solid #8b5cf6; background:#f5f3ff; padding:12px;",
+    "categories": ["Accessibility", "WordPress"],
+    "tags": ["accessibility", "wcag", "wordpress"]
+  },
+  {
+    "date": "2025-09-12",
+    "type": "post",
+    "title": "WordPress and TypeScript",
+    "content": "Add type safety to your WordPress development with TypeScript. We'll cover setup, type definitions, and best practices. [my_shortcode txt=\"TypeScript Guide\"]",
+    "style": "border-left:6px solid #ec4899; background:#fdf2f8; padding:12px;",
+    "categories": ["Development", "JavaScript"],
+    "tags": ["typescript", "wordpress", "development"]
+  },
+  {
+    "date": "2025-09-13",
+    "type": "post",
+    "title": "WordPress CLI Mastery",
+    "content": "Become a WordPress command-line ninja with WP-CLI. We'll cover common commands, custom commands, and automation. [my_shortcode txt=\"CLI Guide\"]",
+    "style": "border-left:6px solid #3b82f6; background:#eff6ff; padding:12px;",
+    "categories": ["Development", "DevOps"],
+    "tags": ["wp-cli", "wordpress", "automation"]
+  },
+  {
+    "date": "2025-09-14",
+    "type": "post",
+    "title": "WordPress and Headless CMS",
+    "content": "Use WordPress as a headless CMS with modern frontend frameworks. We'll cover setup, API endpoints, and common patterns. [my_shortcode txt=\"Headless Guide\"]",
+    "style": "border-left:6px solid #10b981; background:#ecfdf5; padding:12px;",
+    "categories": ["Development", "API"],
+    "tags": ["headless", "wordpress", "api"]
+  },
+  {
+    "date": "2025-09-15",
+    "type": "post",
+    "title": "WordPress Plugin Boilerplate",
+    "content": "Jumpstart your plugin development with the official WordPress Plugin Boilerplate. We'll cover structure, best practices, and customization. [my_shortcode txt=\"Boilerplate Guide\"]",
+    "style": "border-left:6px solid #f59e0b; background:#fffbeb; padding:12px;",
+    "categories": ["Development", "Plugins"],
+    "tags": ["boilerplate", "plugins", "wordpress"]
+  },
+  {
+    "date": "2025-09-16",
+    "type": "post",
+    "title": "WordPress and Webpack",
+    "content": "Modernize your WordPress asset management with Webpack. We'll cover setup, configuration, and best practices for theme and plugin development. [my_shortcode txt=\"Webpack Guide\"]",
+    "style": "border-left:6px solid #8b5cf6; background:#f5f3ff; padding:12px;",
+    "categories": ["Development", "JavaScript"],
+    "tags": ["webpack", "wordpress", "assets"]
   }
 ]
